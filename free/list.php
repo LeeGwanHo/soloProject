@@ -43,7 +43,7 @@
 		<link rel="stylesheet" type="text/css"
 		      href="http://<?= $_SERVER['HTTP_HOST'] ?>/lkhtest/solopage/css/style.css">
 		<link rel="stylesheet" type="text/css"
-		      href="http://<?= $_SERVER['HTTP_HOST'] ?>/lkhtest/solopage/free/css/greet.css?after3">
+		      href="http://<?= $_SERVER['HTTP_HOST'] ?>/lkhtest/solopage/free/css/greet.css?after4">
 		<script src="http://<?= $_SERVER["HTTP_HOST"] ?>/lkhtest/solopage/js/slide.js" defer></script>
 		<script type="text/javascript" src="http://<?= $_SERVER["HTTP_HOST"] ?>/lkhtest/solopage/free/js/member_form.js" defer></script>
 		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
