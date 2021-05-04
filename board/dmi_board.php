@@ -85,8 +85,6 @@
                 exit;
             }
 
-            //운영체제 임시폴더에 저장된 파일을 서버가 지정한 파일 위치로 복사한다
-            // "C:\Windows\temp\php46C3.tmp" => "./data/2021_04_26_11_54_20_you.jpg" 복사한다
             if (!move_uploaded_file($upfile_tmp_name, $uploaded_file)) {
                 echo("
                <script>
@@ -102,7 +100,6 @@
             $copied_file_name = "";
         }
 
-        //    $con = mysqli_connect("localhost", "user1", "12345", "sample");
 
         $sql = "insert into board (id, name, subject, content, regist_day, hit,  file_name, file_type, file_copied) ";
         $sql .= "values('$userid', '$username', '$subject', '$content', '$regist_day', 0, ";

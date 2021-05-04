@@ -61,7 +61,7 @@
                     $file_type_0 = $row['file_type'];
                     //이미지 정보를 가져오기 위한 함수 width, height, type
                     if (!empty($file_name_0)) {
-                        $image_info = getimagesize("./data/" . $file_copied_0);
+                        $image_info = getimagesize("./data/".$file_copied_0);
                         $image_width = $image_info[0];
                         $image_height = $image_info[1];
                         $image_type = $image_info[2];
